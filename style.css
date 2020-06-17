@@ -31,12 +31,6 @@
   border-radius: 3px;
   cursor: pointer;
 }
-
-.left-nav {
-  float: left;
-}
-.right-nav {
-}
 #bar {
   padding-left: 25px;
 }
