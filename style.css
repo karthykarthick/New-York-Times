@@ -2,14 +2,28 @@
     padding: 0;
     margin: 0;
 }
-.navbar{
+.nav-container{
     display: flex;
-    flex: 1;
-    align-items: center;
+    /* flex: 1; */
+    align-items: flex-start;
     }
-#logo{
-   flex: 1;
+
+
+.left-nav{
+  /* flex: 1; */
+  align-self: stretch;
+
 }
+#logo{
+  display: inline-block;
+  align-self: center;
+}
+
+.right-nav{
+    align-self: stretch;
+  /* flex: -1; */
+}
+
 .button{
     height: 25px;
     width: 142px;
@@ -28,10 +42,40 @@
     color: white;
     border-radius: 2px;
 }
+
+/* floating navbar try */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    align-items: center;
+}
+#logo{
+    margin-left: 500px;
+}
 .left-nav{
- 
-    flex: 1 1;
+    float: left;
 }
 .right-nav{
-  flex: -1;
+    float: right;
 }
+
+  .button{
+    height: 25px;
+    width: 142px;
+    padding: 4px 12px 8px;
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border-color: rgb(86, 123, 149);
+    border-radius: 2px;
+}
+.button-one{
+    height: 25px;
+    width: 74px;
+    padding: 3px 12px 8px;
+    background-color: rgb(86, 123, 149);
+    border-color: rgb(86, 123, 149);
+    color: white;
+    border-radius: 2px;
+} */
