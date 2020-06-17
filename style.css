@@ -39,24 +39,70 @@
     font-weight: bold;
 }
 
-
-#heading{
+.heading{
     color: #121212;
-    font-weight: 700;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 650;
     font-style: italic;
     font-size: 40px;
     position: relative;
     left: 0;
-    margin-left: 191px;
-    top: 27px;
-}
-#author{
-    width: 85%;
-    height: auto;
-    margin: 75px 0px 0px 92px;
-}
-.caption{
-    color: silver;
-    margin: 5px 287px 0px 105px ;
+    /* margin-left: 191px; */
+    text-align: center;
 }
 
+.Smoking-Gun-heading{
+  display: block;
+  margin-right: 400px;
+}
+
+.main-figure{
+  margin-top: 75px;
+  display:flex;
+  flex-direction: column;
+  /* width: 55%;
+  height: 55%; */
+  /* margin: 75px auto 0 auto; */
+}
+
+.main-image-container{
+    justify-content:center;
+}
+
+.main-image{
+    width: 65%;
+    height: 85%;
+    margin: 25px auto 5px 350px; 
+} 
+.main-image-caption{
+    color: #666;
+    margin: 5px 287px 0px 350px ;
+} 
+
+.about-main-author{
+  margin: 0 auto;
+  padding: 50px;
+  /* list-style: none; */
+}
+.about-main-author ul{
+  display: flex;
+  list-style: none;
+  /* flex-direction: column; */
+}
+
+.about-main-author li{
+  flex: 5;
+}
+
+.about-main-author .social{
+  flex: 1;
+}
+
+.social-links{
+  display: flex;
+  cursor: pointer;
+}
+
+.social-links .social{
+  flex: 1;
+}
