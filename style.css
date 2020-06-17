@@ -38,3 +38,22 @@
     padding-left: 25px;
     font-weight: bold;
 }
+
+
+#heading{
+    color: #121212;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    left: 0;
+    margin-left: 191px;
+    top: 27px;
+}
+#author{
+    width: 85%;
+    height: auto;
+    margin: 75px 0px 0px 92px;
+}
+
+
