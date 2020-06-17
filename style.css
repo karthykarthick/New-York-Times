@@ -52,8 +52,8 @@
 }
 
 .Smoking-Gun-heading{
-  display: block;
-  margin-right: 400px;
+    display: block;
+    margin-right: 319px;
 }
 
 .main-figure{
@@ -70,39 +70,40 @@
 }
 
 .main-image{
-    width: 65%;
-    height: 85%;
-    margin: 25px auto 5px 350px; 
+    width: 72%;
+    height: 92%;
+    margin: 25px auto 5px 231px;
+
 } 
 .main-image-caption{
+   
     color: #666;
-    margin: 5px 287px 0px 350px ;
+    margin: 0px 140px 0px 231px;
 } 
+ /* #author{
+  margin-left: 200px;
+} */
+
 
 .about-main-author{
-  margin: 0 auto;
-  padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 158px;
+  /* margin: 0 auto;
+  padding: 50px; */
   /* list-style: none; */
 }
 .about-main-author ul{
   display: flex;
+  justify-content: space-evenly;
   list-style: none;
+  
   /* flex-direction: column; */
 }
 
-.about-main-author li{
-  flex: 5;
+.social{
+    padding-left: 40px;
 }
 
-.about-main-author .social{
-  flex: 1;
-}
 
-.social-links{
-  display: flex;
-  cursor: pointer;
-}
 
-.social-links .social{
-  flex: 1;
-}
