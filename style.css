@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.navbar-container{
+.navbar-container {
   position: sticky;
   top: 0;
   background: white;
@@ -119,75 +119,66 @@
   width: 100%;
 }
 
-
-.article{
+.article {
   padding: 38px 141px 8px 323px;
   font-size: larger;
 }
 
-.subscription{
+.subscription {
   color: rgb(50, 104, 145);
   font-weight: bold;
   text-align: center;
 }
-.text{
+.text {
   text-align: center;
 }
 
-.title{
+.title {
   font-weight: bold;
 }
 
-.inflation p{
+.inflation p {
   margin: 33px 0 13px 108px;
- width: 211px;
+  width: 211px;
 }
 
-.sub-text{
+.sub-text {
   margin: 20px 0px 0px 109px;
   color: #666;
 }
-#sub{
+#sub {
   margin: 20px 0px 0px 109px;
   color: #666;
 }
 
-.img-txt{
+.img-txt {
   position: absolute;
-  top: 18.0556%; 
-  left: 0.2544%; 
+  top: 18.0556%;
+  left: 0.2544%;
   width: 173px;
 }
-.img{
-    height: 120px;
-    margin: 20px 0 0px 103px;
+.img {
+  height: 120px;
+  margin: 20px 0 0px 103px;
 }
-#unique{
+#unique {
   margin: 57px 0px 11px 112px;
   font-weight: bold;
 }
 
-.univ-text{
+.univ-text {
   position: relative;
   font-size: smaller;
   /* top: -700px;
   left: 176px; */
 }
 
-
-.title{
+.title {
   font-size: smaller;
   font-weight: bold;
 }
 
-
-
-.inflation-section{
+.inflation-section {
   display: flex;
   flex-wrap: wrap;
-}
-
-.inflation-section-item{
-  
-  /* height: 307px; */
 }
