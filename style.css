@@ -153,18 +153,37 @@
   width: 173px;
 }
 .img{
-  width: 64%;
-  height: 40%;
+  width: 250px;
+  height: 120px;
   margin: 19px 23px 22px 195px;
 }
 
 .univ-text{
   position: relative;
   font-size: smaller;
-  top: -600px;
-  left: 176px;
+  /* top: -700px;
+  left: 176px; */
 }
+
+
 .title{
   font-size: smaller;
   font-weight: bold;
+}
+
+.inflation{
+  width: 1800px;
+}
+
+.inflation-section{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.inflation-section-item{
+  width: 468px;
+  height: 307px;
+  justify-content: space-around;
+  /* align-items: center; */
 }
