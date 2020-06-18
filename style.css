@@ -140,6 +140,11 @@
 .inflation p {
   margin: 33px 0 13px 108px;
   width: 211px;
+  }
+
+.inflation > span {
+  display: block;
+  margin-top: 25px;
 }
 
 .sub-text {
@@ -181,4 +186,17 @@
 .inflation-section {
   display: flex;
   flex-wrap: wrap;
+}
+
+
+
+.read-comments-button {
+  height: 35px;
+  width: 320px;
+  padding: 4px 12px 8px;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-color: rgb(86, 123, 149);
+  border-radius: 3px;
+  cursor: pointer;
 }
