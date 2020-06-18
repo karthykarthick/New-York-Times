@@ -34,76 +34,137 @@
 #bar {
   padding-left: 25px;
 }
-#txt{
-    padding-left: 25px;
-    font-weight: bold;
+#txt {
+  padding-left: 25px;
+  font-weight: bold;
 }
 
-.heading{
-    color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-weight: 650;
-    font-style: italic;
-    font-size: 40px;
-    position: relative;
-    left: 0;
-    /* margin-left: 191px; */
-    text-align: center;
+.heading {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 650;
+  font-style: italic;
+  font-size: 40px;
+  position: relative;
+  left: 0;
+  /* margin-left: 191px; */
+  text-align: center;
 }
 
-.Smoking-Gun-heading{
-    display: block;
-    margin-right: 319px;
+.Smoking-Gun-heading {
+  display: block;
+  margin-right: 319px;
 }
 
-.main-figure{
+.main-figure {
   margin-top: 75px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   /* width: 55%;
   height: 55%; */
   /* margin: 75px auto 0 auto; */
 }
 
-.main-image-container{
-    justify-content:center;
+.main-image-container {
+  justify-content: center;
 }
 
-.main-image{
-    width: 72%;
-    height: 92%;
-    margin: 25px auto 5px 231px;
-
-} 
-.main-image-caption{
-   
-    color: #666;
-    margin: 0px 140px 0px 231px;
-} 
- /* #author{
+.main-image {
+  width: 72%;
+  height: 92%;
+  margin: 25px auto 5px 231px;
+}
+.main-image-caption {
+  color: #666;
+  margin: 0px 140px 0px 231px;
+}
+/* #author{
   margin-left: 200px;
 } */
 
-
-.about-main-author{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 158px;
+.about-main-author {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 158px;
   /* margin: 0 auto;
   padding: 50px; */
   /* list-style: none; */
 }
-.about-main-author ul{
+.about-main-author ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  
+
   /* flex-direction: column; */
 }
 
-.social{
-    padding-left: 40px;
+#dates {
+  padding-top: 29px;
+  margin-left: -448px;
+}
+.social {
+  padding: 25px 40px 0px 0px;
+}
+
+.social :hover {
+  background-color: silver;
+  border-radius: 40%;
+  cursor: pointer;
+  width: 100%;
 }
 
 
+.article{
+  padding: 38px 141px 8px 323px;
+  font-size: larger;
+}
 
+.subscription{
+  color: rgb(50, 104, 145);
+  font-weight: bold;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.inflation p{
+  font-weight: bold;
+  margin: 20px 0 10px 194px;
+}
+
+.sub-text{
+  margin: 20px 0px 0px 190px;
+  color: #666;
+}
+#sub{
+  margin: 20px 0px 0px 190px;
+  color: #666;
+}
+
+.img-txt{
+  position: absolute;
+  top: 18.0556%; 
+  left: 0.2544%; 
+  width: 173px;
+}
+.img{
+  width: 64%;
+  height: 40%;
+  margin: 19px 23px 22px 195px;
+}
+
+.univ-text{
+  position: relative;
+  font-size: smaller;
+  top: -600px;
+  left: 176px;
+}
+.title{
+  font-size: smaller;
+  font-weight: bold;
+}
