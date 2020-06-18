@@ -133,16 +133,16 @@
 }
 
 .inflation p{
-  font-weight: bold;
-  margin: 20px 0 10px 194px;
+  margin: 33px 0 13px 108px;
+ width: 211px;
 }
 
 .sub-text{
-  margin: 20px 0px 0px 190px;
+  margin: 20px 0px 0px 109px;
   color: #666;
 }
 #sub{
-  margin: 20px 0px 0px 190px;
+  margin: 20px 0px 0px 109px;
   color: #666;
 }
 
@@ -153,9 +153,12 @@
   width: 173px;
 }
 .img{
-  width: 250px;
-  height: 120px;
-  margin: 19px 23px 22px 195px;
+    height: 120px;
+    margin: 20px 0 0px 103px;
+}
+#unique{
+  margin: 57px 0px 11px 112px;
+  font-weight: bold;
 }
 
 .univ-text{
@@ -171,19 +174,14 @@
   font-weight: bold;
 }
 
-.inflation{
-  width: 1800px;
-}
+
 
 .inflation-section{
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
 }
 
 .inflation-section-item{
-  width: 468px;
-  height: 307px;
-  justify-content: space-around;
-  /* align-items: center; */
+  
+  /* height: 307px; */
 }
