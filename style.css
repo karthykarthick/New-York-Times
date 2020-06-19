@@ -197,6 +197,7 @@
   border-color: rgb(86, 123, 149);
   border-radius: 3px;
   cursor: pointer;
+  margin-top: 29px;
 }
 #vedio{
   margin: 27px 0px 0px 351px;
@@ -216,6 +217,10 @@
 
 .article-one{
  color: #666;
+ font-size: 0.9rem;
+ line-height: 1rem;
+ margin: 0px auto 1em;
+
 }
 
 i.fa {
@@ -223,8 +228,8 @@ i.fa {
   border-radius: 60px;
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
-
 }
+
 .caption{
   margin: 20px 0px 0px 114px;
   color: #666;
