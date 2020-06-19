@@ -243,3 +243,9 @@ i.fa {
   flex-direction: row;
   vertical-align: baseline;
 } */
+
+.more-articles-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
