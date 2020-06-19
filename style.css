@@ -119,7 +119,10 @@
 
 .article {
   padding: 38px 141px 8px 323px;
-  font-size: larger;
+  /* font-size: larger; */
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  /* vertical-align: baseline; */
 }
 
 .subscription {
@@ -234,3 +237,9 @@ i.fa {
   margin: 20px 0px 0px 114px;
   color: #666;
 }
+
+/* .text-articles{
+  display: flex;
+  flex-direction: row;
+  vertical-align: baseline;
+} */
