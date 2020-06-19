@@ -141,7 +141,7 @@
 .inflation p {
   margin: 33px 0 13px 108px;
   width: 211px;
-  }
+}
 
 .inflation > span {
   display: block;
@@ -189,8 +189,6 @@
   flex-wrap: wrap;
 }
 
-
-
 .read-comments-button {
   height: 35px;
   width: 320px;
@@ -202,28 +200,26 @@
   cursor: pointer;
   margin-top: 29px;
 }
-#vedio{
+#vedio {
   margin: 27px 0px 0px 351px;
 }
-#comment{
+#comment {
   color: #666;
 }
-.comment{
+.comment {
   color: #666;
   margin: 27px 0px 0px 351px;
-
 }
-.img-sky{
+.img-sky {
   height: 376px;
-    margin: 36px 0px 0px 338px;
+  margin: 36px 0px 0px 338px;
 }
 
-.article-one{
- color: #666;
- font-size: 0.9rem;
- line-height: 1rem;
- margin: 0px auto 1em;
-
+.article-one {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 0px auto 1em;
 }
 
 i.fa {
@@ -233,7 +229,7 @@ i.fa {
   padding: 0.5em 0.6em;
 }
 
-.caption{
+.caption {
   margin: 20px 0px 0px 114px;
   color: #666;
 }
@@ -244,8 +240,78 @@ i.fa {
   vertical-align: baseline;
 } */
 
-.more-articles-list{
+.more-articles-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#one {
+  color: black;
+  margin: 35px 395px 3px 35px;
+  font-weight: bold;
+}
+
+#two {
+  color: black;
+  margin: -5px 39px 7px 1007px;
+  font-weight: bold;
+  position: relative;
+}
+
+.margin-txt {
+  margin-left: 50px;
+  font-size: medium;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  list-style: none;
+  margin-left: 50px;
+  grid-template-areas: "box content";
+}
+
+.rec {
+  grid-area: box;
+}
+.text-rec {
+  grid-area: content;
+}
+.grid li {
+  padding-left: 25px;
+}
+.img-grid {
+  height: 190px;
+}
+
+.rec-grid {
+  grid-template-columns: 300px 300px 300px;
+  display: grid;
+  list-style: none;
+  margin: 50px 0px 0px 50px;
+}
+
+.left-content {
+  width: 26%;
+  padding-left: 0.5rem;
+  position: relative;
+  font-weight: bold;
+  line-height: 25px;
+  word-wrap: break-word;
+  top: -986px;
+  font-size: large;
+  float: right;
+}
+
+.left-txt {
+  position: relative;
+  font-weight: bold;
+  line-height: 0;
+  word-wrap: break-word;
+  top: -1006px;
+  font-size: medium;
+  float: right;
+  left: -260px;
 }
