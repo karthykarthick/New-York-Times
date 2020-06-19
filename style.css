@@ -315,3 +315,26 @@ i.fa {
   float: right;
   left: -260px;
 }
+
+.footer-navs-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .second-footer{
+  display: flex;
+} */
+
+.nyt-details{
+  display: flex;
+
+}
+
+.footer-ul{
+  list-style: none;
+}
