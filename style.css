@@ -2,20 +2,24 @@
   padding: 0;
   margin: 0;
 }
+
 .nav-container {
   position: sticky;
   top: 0;
   background: white;
 }
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 27px;
+  margin: 0 27px;
 }
+
 #logo {
   height: 81px;
 }
+
 .button {
   height: 35px;
   width: 144px;
@@ -25,6 +29,7 @@
   border-radius: 3px;
   cursor: pointer;
 }
+
 .button-one {
   height: 35px;
   width: 74px;
@@ -34,9 +39,11 @@
   border-radius: 3px;
   cursor: pointer;
 }
+
 #bar {
   padding-left: 25px;
 }
+
 #txt {
   padding-left: 25px;
   font-weight: bold;
@@ -72,9 +79,10 @@
   height: 92%;
   margin: 25px auto 5px 231px;
 }
+
 .main-image-caption {
   color: #666;
-  margin: 0px 140px 0px 231px;
+  margin: 0 140px 0 231px;
 }
 
 .about-main-author {
@@ -82,6 +90,7 @@
   justify-content: space-around;
   margin-left: 158px;
 }
+
 .about-main-author ul {
   display: flex;
   justify-content: space-evenly;
@@ -92,8 +101,9 @@
   padding-top: 29px;
   margin-left: -448px;
 }
+
 .social {
-  padding: 25px 40px 0px 0px;
+  padding: 25px 40px 0 0;
 }
 
 .social :hover {
@@ -112,12 +122,9 @@
   font-weight: bold;
   text-align: center;
 }
+
 .text {
   text-align: center;
-}
-
-.title {
-  font-weight: bold;
 }
 
 .inflation p {
@@ -131,11 +138,12 @@
 }
 
 .sub-text {
-  margin: 20px 0px 0px 109px;
+  margin: 20px 0 0 109px;
   color: #666;
 }
+
 #sub {
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0 0 0;
   color: #666;
 }
 
@@ -145,11 +153,13 @@
   left: 0.2544%;
   width: 173px;
 }
+
 .img {
   height: 120px;
 }
+
 #unique {
-  margin: 57px 0px 11px 112px;
+  margin: 57px 0 11px 112px;
   font-weight: bold;
 }
 
@@ -169,6 +179,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .read-comments-button {
   height: 35px;
   width: 320px;
@@ -179,26 +190,30 @@
   cursor: pointer;
   margin-top: 29px;
 }
+
 #vedio {
-  margin: 27px 0px 0px 351px;
+  margin: 27px 0 0 351px;
 }
+
 #comment {
   color: #666;
 }
+
 .comment {
   color: #666;
-  margin: 27px 0px 0px 351px;
+  margin: 27px 0 0 351px;
 }
+
 .img-sky {
   height: 376px;
-  margin: 36px 0px 0px 338px;
+  margin: 36px 0 0 338px;
 }
 
 .article-one {
   color: #666;
   font-size: 0.9rem;
   line-height: 1rem;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 i.fa {
@@ -208,7 +223,7 @@ i.fa {
 }
 
 .caption {
-  margin: 20px 0px 0px 114px;
+  margin: 20px 0 0 114px;
   color: #666;
 }
 
@@ -247,12 +262,15 @@ i.fa {
 .rec {
   grid-area: box;
 }
+
 .text-rec {
   grid-area: content;
 }
+
 .grid li {
   padding-left: 25px;
 }
+
 .img-grid {
   height: 190px;
 }
@@ -261,7 +279,7 @@ i.fa {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 50px 0px 0px 50px;
+  margin: 50px 0 0 50px;
 }
 
 .left-content {
@@ -320,6 +338,7 @@ i.fa {
 .second-footer {
   width: 100%;
 }
+
 .second-footer ul {
   list-style: none;
   display: flex;

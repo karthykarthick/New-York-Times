@@ -1,4 +1,4 @@
-# HTML FORM : Mint Sign-Up Page (Microverse Collaborative Project)
+# PROJECT: POSITIONING AND FLOATING ELEMENTS (Microverse Collaborative Project)
 
 > This project consists on using of plain HTML and CSS to create an article website.
 > A reproduction of "the new york times" was used to complete the project (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
@@ -16,11 +16,10 @@
 #### Prerequisites
 - Browser
 - Internet
+
 ## Authors
 
 👤 ** karthick harimoorthy **
-
-
 
 - Github (https://github.com/karthykarthick)
 - Linkedin (https://www.linkedin.com/in/karthick-harimoorthy/)
