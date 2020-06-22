@@ -360,7 +360,9 @@ i.fa {
 .second-footer {
   width: 100%;
 }
-
+.link{
+ color: black;
+}
 .second-footer ul {
   list-style: none;
   display: flex;
@@ -368,7 +370,7 @@ i.fa {
   font-size: smaller;
   position: relative;
   top: 25px;
-  left: 0;
+  left: 170px;
   color: silver;
 }
 
