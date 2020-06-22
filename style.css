@@ -129,7 +129,6 @@
 }
 
 .inflation p {
-  /* margin: 16px 0 0 0; */
   width: 211px;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 14px;
@@ -171,7 +170,6 @@
 }
 
 h1 {
-  /* margin: 57px 0 11px 112px; */
   margin-bottom: 2px;
   line-height: 1.5rem;
   font-weight: 700;
@@ -245,7 +243,6 @@ i.fa {
 }
 
 .caption {
-  /* margin: 20px 0 0 114px; */
   color: #666;
 }
 
@@ -326,8 +323,6 @@ i.fa {
   float: right;
   left: -260px;
 }
-
-
 
 .footer-grid-item {
   position: relative;
