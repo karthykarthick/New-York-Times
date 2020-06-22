@@ -112,7 +112,7 @@
 }
 
 .article {
-  padding: 37px 1px 8px 0px;
+  padding: 37px 1px 8px 0;
   margin-left: 447px;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -138,8 +138,6 @@
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .inflation > span {
@@ -178,7 +176,6 @@ h1 {
   font-style: normal;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-size: 1.25rem;
-  font-weight: bold;
   color: black;
 }
 
@@ -329,15 +326,17 @@ i.fa {
   position: relative;
   text-align: left;
 }
+
 .footer-ul a {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
 .footer-ul {
   list-style: none;
   align-items: center;
-  padding: 10px 20px 0px 20px;
+  padding: 10px 20px 0 20px;
 }
 
 .footer-ul span {
@@ -353,13 +352,16 @@ i.fa {
   padding-right: 61px;
   line-height: 2;
 }
+
 .second-footer {
   width: 100%;
   margin-bottom: 50px;
 }
+
 .link {
   color: black;
 }
+
 .second-footer ul {
   list-style: none;
   display: flex;
