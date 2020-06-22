@@ -131,7 +131,7 @@
 .inflation p {
   /* margin: 16px 0 0 0; */
   width: 211px;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
@@ -176,7 +176,7 @@ h1 {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-size: 1.25rem;
   font-weight: bold;
   color: black;
@@ -186,7 +186,7 @@ h1 {
   position: relative;
   font-size: smaller;
   font-size: 14px;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
 
 .title {
@@ -195,12 +195,11 @@ h1 {
 }
 
 .inflation-section {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
- padding-left: 17%;
- padding-right: 17%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 17%;
+  padding-right: 17%;
 }
-
 
 .read-comments-button {
   height: 35px;
@@ -235,7 +234,6 @@ h1 {
   color: #666;
   font-size: 0.9rem;
   line-height: 1rem;
-  
 }
 
 i.fa {
@@ -327,22 +325,19 @@ i.fa {
   left: -260px;
 }
 
-
-
 .footer-grid-item {
   position: relative;
   text-align: left;
 }
-.footer-ul a{
-  color:black;
+.footer-ul a {
+  color: black;
   text-decoration: none;
   cursor: pointer;
-} 
+}
 .footer-ul {
   list-style: none;
   align-items: center;
   padding: 10px 20px 0px 20px;
- 
 }
 
 .footer-ul span {
@@ -362,8 +357,8 @@ i.fa {
   width: 100%;
   margin-bottom: 50px;
 }
-.link{
- color: black;
+.link {
+  color: black;
 }
 .second-footer ul {
   list-style: none;
@@ -376,18 +371,18 @@ i.fa {
   color: silver;
 }
 
-.second-footer a{
+.second-footer a {
   color: black;
   text-decoration: none;
 }
 
-html{
+html {
   height: -webkit-fill-available;
 }
-.footer-text{
+.footer-text {
   padding-left: 20px;
 }
 
-.space{
+.space {
   padding-left: 40px;
 }
