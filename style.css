@@ -112,7 +112,8 @@
 }
 
 .article {
-  padding: 38px 141px 8px 323px;
+  padding: 37px 1px 8px 0px;
+  margin-left: 447px;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -124,11 +125,11 @@
 }
 
 .text {
-  text-align: center;
+  margin-left: 596px;
 }
 
 .inflation p {
-  margin: 33px 0 13px 59px;
+  margin: -16px 0 0px 0;
   width: 211px;
 }
 
@@ -174,12 +175,14 @@
 }
 
 .inflation-section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.inflation-section-item{
+  position: relative;
+  left: 110px;
+}
 .read-comments-button {
   height: 35px;
   width: 320px;
@@ -192,7 +195,7 @@
 }
 
 #vedio {
-  margin: 27px 0 0 351px;
+  margin: 27px 0 0 441px;
 }
 
 #comment {
@@ -201,19 +204,19 @@
 
 .comment {
   color: #666;
-  margin: 27px 0 0 351px;
+  margin: 27px 0 0 441px;
 }
 
 .img-sky {
   height: 376px;
-  margin: 36px 0 0 338px;
+  margin: 36px 0 0 441px;
 }
 
 .article-one {
   color: #666;
   font-size: 0.9rem;
   line-height: 1rem;
-  margin: 0 auto 1em;
+  
 }
 
 i.fa {
@@ -289,7 +292,7 @@ i.fa {
   font-weight: bold;
   line-height: 25px;
   word-wrap: break-word;
-  top: -986px;
+  top: -909px;
   font-size: large;
   float: right;
 }
@@ -299,22 +302,20 @@ i.fa {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -1006px;
+  top: -933px;
   font-size: medium;
   float: right;
   left: -260px;
 }
 
 .footer {
-  display: grid;
-  grid-row: 1 / -1;
-  margin: 50px 250px;
+  margin: 0px 50px 0px 100px;
 }
 
-.footer-grid-item {
+/* .footer-grid-item {
   position: relative;
   text-align: left;
-}
+} */
 
 .footer-ul {
   list-style: none;
