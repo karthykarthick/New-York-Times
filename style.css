@@ -22,7 +22,6 @@
   padding: 4px 12px 8px;
   background-color: rgb(86, 123, 149);
   color: white;
-  border-color: rgb(86, 123, 149);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -31,7 +30,6 @@
   width: 74px;
   padding: 4px 12px 8px;
   background-color: rgb(86, 123, 149);
-  border-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
   cursor: pointer;
@@ -47,12 +45,10 @@
 .heading {
   color: #121212;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 650;
   font-style: italic;
   font-size: 40px;
   position: relative;
   left: 0;
-  /* margin-left: 191px; */
   text-align: center;
 }
 
@@ -179,7 +175,6 @@
   padding: 4px 12px 8px;
   background-color: rgb(86, 123, 149);
   color: white;
-  border-color: rgb(86, 123, 149);
   border-radius: 3px;
   cursor: pointer;
   margin-top: 29px;
