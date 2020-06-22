@@ -196,15 +196,10 @@ h1 {
 .inflation-section {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr;
- padding-left: 20%;
- padding-right: 20%;
+ padding-left: 17%;
+ padding-right: 17%;
 }
 
-.inflation-section-item{
-  /* position: relative; */
-  /* left: 110px; */
-}
 
 .read-comments-button {
   height: 35px;
@@ -331,18 +326,22 @@ i.fa {
   left: -260px;
 }
 
-.footer {
- 
-}
+
 
 .footer-grid-item {
   position: relative;
   text-align: left;
 }
-
+.footer-ul a{
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+} 
 .footer-ul {
   list-style: none;
   align-items: center;
+  padding: 10px 20px 0px 20px;
+ 
 }
 
 .footer-ul span {
@@ -353,12 +352,11 @@ i.fa {
 }
 
 .first-footer {
-  display: grid;
-  grid-template-columns: 150px 200px 200px 200px 200px 200px;
-  position: relative;
-  width: 100%;
+  display: flex;
+  margin: 98px 0 0px 186px;
+  padding-right: 61px;
+  line-height: 2;
 }
-
 .second-footer {
   width: 100%;
 }
@@ -374,3 +372,13 @@ i.fa {
   color: silver;
 }
 
+html{
+  height: -webkit-fill-available;
+}
+.footer-text{
+  padding-left: 20px;
+}
+
+.space{
+  padding-left: 40px;
+}
