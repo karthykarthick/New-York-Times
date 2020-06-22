@@ -145,6 +145,7 @@
 .inflation > span {
   display: block;
   margin-top: 25px;
+  margin-left: 227px;
 }
 
 .sub-text {
@@ -360,7 +361,9 @@ i.fa {
 .second-footer {
   width: 100%;
 }
-
+.link{
+ color: black;
+}
 .second-footer ul {
   list-style: none;
   display: flex;
@@ -368,8 +371,13 @@ i.fa {
   font-size: smaller;
   position: relative;
   top: 25px;
-  left: 0;
+  left: 170px;
   color: silver;
+}
+
+.second-footer a{
+  color: black;
+  text-decoration: none;
 }
 
 html{
