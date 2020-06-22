@@ -138,9 +138,10 @@
 }
 
 .inflation p {
-  margin: 33px 0 13px 108px;
+  margin: 33px 0 13px 59px;
   width: 211px;
 }
+
 
 .inflation > span {
   display: block;
@@ -164,7 +165,7 @@
 }
 .img {
   height: 120px;
-  margin: 20px 0 0px 103px;
+
 }
 #unique {
   margin: 57px 0px 11px 112px;
@@ -245,7 +246,7 @@ i.fa {
   justify-content: space-around;
 }
 
-#one {
+.one {
   color: black;
   margin: 35px 395px 3px 35px;
   font-weight: bold;
