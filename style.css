@@ -309,13 +309,13 @@ i.fa {
 }
 
 .footer {
-  margin: 0px 50px 0px 100px;
+ 
 }
 
-/* .footer-grid-item {
+.footer-grid-item {
   position: relative;
   text-align: left;
-} */
+}
 
 .footer-ul {
   list-style: none;
@@ -351,6 +351,3 @@ i.fa {
   color: silver;
 }
 
-body {
-  border: 1px solid transparent;
-}
