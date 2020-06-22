@@ -129,8 +129,17 @@
 }
 
 .inflation p {
-  margin: -16px 0 0px 0;
+  /* margin: 16px 0 0 0; */
   width: 211px;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .inflation > span {
@@ -139,7 +148,7 @@
 }
 
 .sub-text {
-  margin: 20px 0 0 109px;
+  margin: 20px 0 15px 384px;
   color: #666;
 }
 
@@ -156,17 +165,27 @@
 }
 
 .img {
-  height: 120px;
+  height: 50%;
+  width: 80%;
 }
 
-#unique {
-  margin: 57px 0 11px 112px;
+h1 {
+  /* margin: 57px 0 11px 112px; */
+  margin-bottom: 2px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-size: 1.25rem;
   font-weight: bold;
+  color: black;
 }
 
 .univ-text {
   position: relative;
   font-size: smaller;
+  font-size: 14px;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
 
 .title {
@@ -177,12 +196,16 @@
 .inflation-section {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+ padding-left: 20%;
+ padding-right: 20%;
 }
 
 .inflation-section-item{
-  position: relative;
-  left: 110px;
+  /* position: relative; */
+  /* left: 110px; */
 }
+
 .read-comments-button {
   height: 35px;
   width: 320px;
@@ -226,7 +249,7 @@ i.fa {
 }
 
 .caption {
-  margin: 20px 0 0 114px;
+  /* margin: 20px 0 0 114px; */
   color: #666;
 }
 
