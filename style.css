@@ -348,7 +348,7 @@ i.fa {
 
 .first-footer {
   display: flex;
-  margin: 98px 0 0px 186px;
+  margin: 98px 0 0 186px;
   padding-right: 61px;
   line-height: 2;
 }
