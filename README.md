@@ -9,7 +9,7 @@ float
 flex
 grid
 
-![screenshot](./src/ny-times_webpage.png)
+![screenshot](./src/ny-times.png)
 
 ## Built With
 
@@ -17,7 +17,7 @@ grid
 - CSS
 
 ## Live Demo
-- [Live Demo Link](https://raw.githack.com/karthykarthick/New-York-Times/tree/development)
+- [Live Demo Link](https://karthykarthick.github.io/New-York-Times/)
 
 #### Prerequisites
 - Browser
