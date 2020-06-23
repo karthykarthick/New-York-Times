@@ -1,11 +1,5 @@
 html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+  height: -webkit-fill-available;
 }
 
 * {
@@ -60,10 +54,6 @@ html {
   color: white;
   border-radius: 3px;
   cursor: pointer;
-}
-
-.right-nav {
-  background-color: white;
 }
 
 #bar {
@@ -168,7 +158,7 @@ html {
 }
 
 .text {
-  margin-left: 596px;
+  margin-left: 545px;
 }
 
 .inflation p {
@@ -215,7 +205,7 @@ h1 {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-family:  georgia, times, serif;
   font-size: 1.25rem;
   color: black;
 }
@@ -224,7 +214,7 @@ h1 {
   position: relative;
   font-size: smaller;
   font-size: 14px;
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-family:  georgia, times new roman, times, serif;
 }
 
 .title {
@@ -430,10 +420,6 @@ a:visited {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-html {
-  height: -webkit-fill-available;
 }
 
 .footer-text {
