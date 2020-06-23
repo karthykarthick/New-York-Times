@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -263,7 +270,6 @@ i.fa {
 }
 
 .caption {
-  /* margin: 20px 0 0 114px; */
   color: #666;
 }
 
@@ -289,6 +295,12 @@ i.fa {
 .margin-txt {
   margin-left: 50px;
   font-size: medium;
+  color: #000;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  display: inline-block;
 }
 
 .grid {
@@ -429,7 +441,16 @@ html {
 }
 
 .text1{
-  font-size: 21px;
+  font-size: 20px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: #333;
+  border-color: #333;
+  font-stretch: 100%;
+  line-height: 30px;
+}
+
+.text2{
+  font-size: 16px;
 }
 
 .picks{
