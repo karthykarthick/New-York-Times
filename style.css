@@ -378,6 +378,11 @@ i.fa {
   text-decoration: none;
 }
 
+.lines a{
+  color: black;
+  text-decoration: none;
+}
+
 html {
   height: -webkit-fill-available;
 }
