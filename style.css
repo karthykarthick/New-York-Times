@@ -17,11 +17,15 @@
 }
 
 #logo {
-  height: 81px;
+  height: 24px;
+}
+
+#now{
+  background-color: white;
 }
 
 .button {
-  height: 35px;
+  height: 29px;
   width: 144px;
   padding: 4px 12px 8px;
   background-color: rgb(86, 123, 149);
@@ -31,13 +35,17 @@
 }
 
 .button-one {
-  height: 35px;
+  height: 29px;
   width: 74px;
   padding: 4px 12px 8px;
   background-color: rgb(86, 123, 149);
   color: white;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.right-nav{
+background-color: white;
 }
 
 #bar {
@@ -88,7 +96,7 @@
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 158px;
+  margin-left: 234px;
 }
 
 .about-main-author ul {
@@ -98,12 +106,29 @@
 }
 
 #dates {
-  padding-top: 29px;
-  margin-left: -448px;
+  position: relative;
+  margin-left: -636px;
+  top: 39px;
 }
 
-.social {
-  padding: 25px 40px 0 0;
+#author {
+  padding-left: 221px;
+}
+
+.social{
+  position: relative;
+  left: -251px;
+}
+
+.sociall{
+  top: 26px;
+  position: relative;
+  left: -251px;
+}
+
+.sociall :hover{
+  background-color: silver;
+  cursor: pointer;
 }
 
 .social :hover {
@@ -112,8 +137,8 @@
 }
 
 .article {
-  padding: 37px 1px 8px 0;
-  margin-left: 447px;
+  padding: 45px 0 0 0;
+  margin-left: 409px;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -133,10 +158,10 @@
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
-  font-weight: 300;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+}
+
+#clr{
+color: black;
 }
 
 .inflation > span {
@@ -315,10 +340,10 @@ i.fa {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -933px;
-  font-size: medium;
+  top: -966px;
+  font-size: larger;
   float: right;
-  left: -260px;
+  left: -242px;
 }
 
 .footer-grid-item {
@@ -347,9 +372,10 @@ i.fa {
 
 .first-footer {
   display: flex;
-  margin: 98px 0 0 186px;
+  margin: 98px 0 0 20px;
   padding-right: 61px;
   line-height: 2;
+
 }
 
 .second-footer {
@@ -393,4 +419,15 @@ html {
 
 .space {
   padding-left: 40px;
+}
+
+#footer-logo{
+  height: 24px;
+  position: relative;
+  top: -43px;
+  left: 216px;
+}
+
+.text1{
+  font-size: 21px;
 }
