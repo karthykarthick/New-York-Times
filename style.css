@@ -112,7 +112,7 @@
 }
 
 .article {
-  padding: 37px 1px 8px 0px;
+  padding: 37px 1px 8px 0;
   margin-left: 447px;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -129,6 +129,7 @@
 }
 
 .inflation p {
+  /* margin: 16px 0 0 0; */
   width: 211px;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
@@ -137,8 +138,6 @@
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .inflation > span {
@@ -170,13 +169,13 @@
 }
 
 h1 {
+  /* margin: 57px 0 11px 112px; */
   margin-bottom: 2px;
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-size: 1.25rem;
-  font-weight: bold;
   color: black;
 }
 
@@ -241,6 +240,7 @@ i.fa {
 }
 
 .caption {
+  /* margin: 20px 0 0 114px; */
   color: #666;
 }
 
@@ -326,15 +326,17 @@ i.fa {
   position: relative;
   text-align: left;
 }
+
 .footer-ul a {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
 .footer-ul {
   list-style: none;
   align-items: center;
-  padding: 10px 20px 0px 20px;
+  padding: 10px 20px 0 20px;
 }
 
 .footer-ul span {
@@ -346,17 +348,20 @@ i.fa {
 
 .first-footer {
   display: flex;
-  margin: 98px 0 0px 186px;
+  margin: 98px 0 0 186px;
   padding-right: 61px;
   line-height: 2;
 }
+
 .second-footer {
   width: 100%;
   margin-bottom: 50px;
 }
+
 .link {
   color: black;
 }
+
 .second-footer ul {
   list-style: none;
   display: flex;
@@ -373,9 +378,15 @@ i.fa {
   text-decoration: none;
 }
 
+.lines a{
+  color: black;
+  text-decoration: none;
+}
+
 html {
   height: -webkit-fill-available;
 }
+
 .footer-text {
   padding-left: 20px;
 }
