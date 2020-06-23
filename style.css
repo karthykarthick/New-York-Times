@@ -431,3 +431,30 @@ html {
 .text1{
   font-size: 21px;
 }
+
+.picks{
+  position: relative;
+  float: right;
+  top: -153px;
+  left: -36px;
+  display: grid;
+}
+
+.picks img{
+  height: 100px;
+  float: left;
+  position: relative;
+  left: -15px;
+}
+
+.picks a{
+  color: #666;
+  text-decoration: none;
+}
+
+.picks p{
+  position: relative;
+  top: -19px;
+  left: -13px;
+  font-weight: bold;
+}
