@@ -11,9 +11,17 @@ html {
 }
 
 .nav-container {
-  position: sticky;
+  position: fixed;
   top: 0;
   background: white;
+}
+
+.left-nav{
+  padding-right: 300px;
+}
+
+.right-nav{
+  padding-left: 342px;
 }
 
 .navbar {
@@ -39,9 +47,11 @@ html {
   color: white;
   border-radius: 3px;
   cursor: pointer;
+
 }
 
 .button-one {
+
   height: 29px;
   width: 74px;
   padding: 4px 12px 8px;
@@ -339,7 +349,7 @@ a:link, a:visited {
   width: 26%;
   padding-left: 0.5rem;
   position: relative;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 25px;
   word-wrap: break-word;
   top: -909px;
@@ -457,7 +467,7 @@ html {
   position: relative;
   float: right;
   top: -153px;
-  left: -500px;
+  left: -36px;
   display: grid;
 }
 
@@ -478,7 +488,7 @@ html {
   height: 100px;
   float: left;
   position: relative;
-  left: -15px;
+  left: -20px;
 }
 
 .picks a{
