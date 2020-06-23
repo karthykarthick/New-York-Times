@@ -278,6 +278,7 @@ i.fa {
 
 .rec {
   grid-area: box;
+  grid-gap: 11px;
 }
 
 .text-rec {
@@ -381,6 +382,7 @@ i.fa {
 .lines a{
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 html {
