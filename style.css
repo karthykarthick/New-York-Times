@@ -436,8 +436,21 @@ html {
   position: relative;
   float: right;
   top: -153px;
-  left: -36px;
+  left: -500px;
   display: grid;
+}
+
+.picks p{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .picks img{
@@ -450,11 +463,4 @@ html {
 .picks a{
   color: #666;
   text-decoration: none;
-}
-
-.picks p{
-  position: relative;
-  top: -19px;
-  left: -13px;
-  font-weight: bold;
 }
