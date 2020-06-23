@@ -205,7 +205,6 @@ h1 {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  font-family:  georgia, times, serif;
   font-size: 1.25rem;
   color: black;
 }
@@ -214,7 +213,7 @@ h1 {
   position: relative;
   font-size: smaller;
   font-size: 14px;
-  font-family:  georgia, times new roman, times, serif;
+  
 }
 
 .title {
@@ -462,7 +461,7 @@ a:visited {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 14px;
