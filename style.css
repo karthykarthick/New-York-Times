@@ -118,7 +118,7 @@ header {
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 335px;
+  margin-left: 356px;
   padding-bottom: 23px;
 }
 
@@ -160,8 +160,7 @@ header {
 }
 
 .article {
-  padding: 45px 0 0 0;
-  margin-left: 574px;
+  padding: 44px 562px 0 582px;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -501,7 +500,8 @@ a:visited {
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid rgb(226, 226, 226);
+  position: relative;
+  left: -112px;
 }
 
 .picks img {
