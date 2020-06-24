@@ -23,7 +23,7 @@ header {
 }
 
 .right-nav {
-  padding-left: 406px;
+  padding-left: 512px;
 }
 
 .navbar {
@@ -33,6 +33,7 @@ header {
 
 #logo {
   height: 24px;
+  padding-left: 224px;
 }
 
 #now {
@@ -79,7 +80,7 @@ header {
 }
 
 .Smoking-Gun-heading {
-  display: block;
+  display: ablock;
   margin-right: 319px;
 }
 
@@ -104,10 +105,16 @@ header {
   margin: 0 140px 0 231px;
 }
 
+.author-text{
+  padding-left: 600px;
+  margin-top: 24px;
+}
+
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 234px;
+  margin-left: 335px;
+  padding-bottom: 23px;
 }
 
 .about-main-author ul {
@@ -118,23 +125,23 @@ header {
 
 #dates {
   position: relative;
-  margin-left: -595px;
+  margin-left: -798px;
   top: 39px;
 }
 
 #author {
-  padding-left: 119px;
+  padding-left: 185px;
 }
 
 .social {
   position: relative;
-  left: -251px;
+  left: -385px;
 }
 
 .sociall {
   top: 26px;
   position: relative;
-  left: -251px;
+  left: -341px;
 }
 
 .sociall :hover {
@@ -149,9 +156,14 @@ header {
 
 .article {
   padding: 45px 0 0 0;
-  margin-left: 470px;
+  margin-left: 574px;
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+.article-text{
+  padding-left: 716px;
+  margin-top: 24px;
 }
 
 .subscription {
@@ -178,7 +190,7 @@ header {
 .inflation > span {
   display: block;
   margin-top: 25px;
-  margin-left: 227px;
+  margin-left: 408px;
 }
 
 .sub-text {
@@ -226,8 +238,8 @@ h1 {
 .inflation-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 25%;
+  padding-right: 22%;
 }
 
 .read-comments-button {
@@ -242,7 +254,7 @@ h1 {
 }
 
 #vedio {
-  margin: 27px 0 0 441px;
+  margin: 27px 0 0 574px;
 }
 
 #comment {
@@ -251,12 +263,12 @@ h1 {
 
 .comment {
   color: #666;
-  margin: 27px 0 0 441px;
+  margin: 27px 0 0 552px;
 }
 
 .img-sky {
   height: 376px;
-  margin: 36px 0 0 441px;
+  margin: 36px 0 0 562px;
 }
 
 .article-one {
@@ -283,19 +295,22 @@ i.fa {
 
 .one {
   color: black;
-  margin: 35px 395px 3px 35px;
   font-weight: bold;
+  position: relative;
+  left: 1098px;
+  margin-right: 1283px;
 }
 
 #two {
   color: black;
-  margin: -5px 39px 7px 1007px;
   font-weight: bold;
+  left: 133px;
+  margin-right: 774px;
   position: relative;
 }
 
 .margin-txt {
-  margin-left: 76px;
+  margin-left: 134px;
   font-size: medium;
   color: #000;
 }
@@ -332,7 +347,7 @@ a:visited {
 }
 
 .grid li {
-  padding-left: 25px;
+  padding-left: 83px;
 }
 
 .img-grid {
@@ -343,7 +358,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 50px 0 0 64px;
+  margin: 50px 0 0 111px;
 }
 
 .left-content {
@@ -353,9 +368,10 @@ a:visited {
   font-weight: normal;
   line-height: 24px;
   word-wrap: break-word;
-  top: -863px;
+  top: -868px;
   font-size: large;
   float: right;
+  left: -157px;
 }
 
 .left-txt {
@@ -363,10 +379,10 @@ a:visited {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -898px;
+  top: -892px;
   font-size: larger;
   float: right;
-  left: -233px;
+  left: -476px;
 }
 
 .footer-grid-item {
@@ -456,19 +472,19 @@ a:visited {
 }
 
 .text2 {
-  font-size: 16px;
+  margin-left: 48px;
 }
 
 .picks {
   position: relative;
   float: right;
   top: -153px;
-  left: -36px;
+  left: -216px;
   display: grid;
 }
 
 .picks p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-align: center;
   font-weight: 700;
   color: rgb(0, 0, 0);
   margin-top: 0;
@@ -507,207 +523,5 @@ a:visited {
   float: right;
   position: relative;
   cursor: pointer;
-  left: -155px;
+  left: 57px;
 }
- 
-@media only screen and (max-width: 1380px) and (max-width: 1080px){
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-  
- .nav-container {
-  position: fixed;
-  top: 0;
-  background: white;
-  overflow: hidden;
- }
-
- .left-nav {
-  padding-right: 379px;
- }
-
-.left-nav img{
-  padding-left: 20%;
-}
-
- .right-nav {
-  padding-left: 778px;
- }
-
- #logo{
-   
-  height: 24px;
-  padding-left: 60%;
-
- }
-
- .article{
-
-   padding: 45px 0 0 0;
-   margin-left: 706px;
-   font-size: 1.25rem;
-   line-height: 1.875rem;
- }
-
- #author {
-  padding-left: 302px;
-}
-
-#dates {
-  position: relative;
-  margin-left: -848px;
-  top: 39px;
-}
-
-.social {
-  position: relative;
-  left: -467px;
-}
-
-.picks {
-  position: relative;
-  float: right;
-  top: -153px;
-  left: -208px;
-  display: grid;
-}
-
-.article-text{
-  padding-left: 590px;
-  margin-top: 36px;
-}
-
-.inflation > span {
-  display: block;
-  margin-top: 25px;
-  margin-left: 468px;
-}
-
-.inflation-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 25%;
-  padding-right: 20%;
-}
-
-#vedio {
-  margin: 27px 0 0 709px;
-}
-
-.img-sky {
-  height: 376px;
-  margin: 36px 0 0 688px;
-}
-
-.comment {
-  color: #666;
-  margin: 27px 0 0 687px;
-}
-
-.article-one {
-    color: #666;
-    font-size: 15px;
-    line-height: 1rem;
-}
-
-.about-main-author {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 444px;
-}
-
-.sociall {
-  top: 26px;
-  position: relative;
-  left: -338px;
-}
-
-.left-content {
-  width: 26%;
-  position: relative;
-  font-weight: normal;
-  line-height: 24px;
-  word-wrap: break-word;
-  top: -863px;
-  font-size: large;
-  float: right;
-  left: -134px;
-}
-
-.rec {
-  grid-area: box;
-  grid-gap: 17px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  list-style: none;
-  margin-left: 287px;
-  grid-template-areas: "box content";
-}
-
-.margin-txt {
-  margin-left: 308px;
-  font-size: medium;
-  color: #000;
-}
-
-.left-txt {
-  position: relative;
-  font-weight: bold;
-  line-height: 0;
-  word-wrap: break-word;
-  top: -911px;
-  font-size: larger;
-  float: right;
-  left: -512px;
-}
-
-.rec-grid {
-  grid-template-columns: 300px 300px 300px;
-  display: grid;
-  list-style: none;
-  margin: 50px 0 0 319px;
-}
-
-.margin {
-  margin-left: 320px;
-  font-size: medium;
-  color: #000;
-  position: relative;
-  top: 24px;
-}
-
-.first-footer {
-  display: flex;
-  margin: 98px 0 0 104px;
-  padding-right: -16px;
-  line-height: 2;
-}
-
-.second-footer {
-  margin-bottom: 50px;
-  margin-left: 115px;
-  width: 71%;
-}
-
-.sticky p{
-  padding-left: 321px;
-  flex-shrink: 0;
-}
-
-#expand {
-  font-weight: bold;
-  padding-right: -59px;
-  top: -21px;
-  float: right;
-  flex-shrink: 0;
-  position: relative;
-  cursor: pointer;
-  left: -450px;
-}
-
-} 
