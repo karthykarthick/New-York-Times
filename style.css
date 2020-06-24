@@ -166,7 +166,7 @@ header {
 }
 
 .article-text {
-  padding-left: 716px;
+  padding-left: 580px;
   margin-top: 24px;
 }
 
@@ -486,8 +486,9 @@ a:visited {
   position: relative;
   float: right;
   top: -153px;
-  left: -216px;
+  left: -201px;
   display: grid;
+  float: right;
 }
 
 .picks p {
@@ -501,7 +502,7 @@ a:visited {
   line-height: 14px;
   letter-spacing: 0.02em;
   position: relative;
-  left: -112px;
+  left: -103px;
 }
 
 .picks img {
