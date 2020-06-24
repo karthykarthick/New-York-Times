@@ -7,10 +7,15 @@ html {
   margin: 0;
 }
 
+header {
+  z-index: 1;
+}
+
 .nav-container {
   position: fixed;
   top: 0;
   background: white;
+  overflow: hidden;
 }
 
 .left-nav {
@@ -19,6 +24,7 @@ html {
 
 .right-nav {
   padding-left: 342px;
+  overflow: hidden;
 }
 
 .navbar {
@@ -26,6 +32,8 @@ html {
   align-items: center;
   justify-content: space-between;
   margin: 0 27px;
+  overflow: auto;
+  z-index: 9999;
 }
 
 #logo {
