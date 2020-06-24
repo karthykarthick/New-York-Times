@@ -491,3 +491,9 @@ a:visited {
   color: #666;
   text-decoration: none;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+  /* ADD YOUR CSS ADJUSTMENTS BELOW HERE */
+  
+
+  }
