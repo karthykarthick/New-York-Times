@@ -9,7 +9,6 @@ html {
 
 header {
   z-index: 1;
-  width: 100%;
 }
 
 .nav-container {
@@ -24,7 +23,7 @@ header {
 }
 
 .right-nav {
-  padding-left: 406px;
+  padding-left: 512px;
 }
 
 .navbar {
@@ -34,6 +33,7 @@ header {
 
 #logo {
   height: 24px;
+  padding-left: 224px;
 }
 
 #now {
@@ -80,7 +80,7 @@ header {
 }
 
 .Smoking-Gun-heading {
-  display: block;
+  display: ablock;
   margin-right: 319px;
 }
 
@@ -105,10 +105,16 @@ header {
   margin: 0 140px 0 231px;
 }
 
+.author-text{
+  padding-left: 600px;
+  margin-top: 24px;
+}
+
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 234px;
+  margin-left: 335px;
+  padding-bottom: 23px;
 }
 
 .about-main-author ul {
@@ -119,23 +125,23 @@ header {
 
 #dates {
   position: relative;
-  margin-left: -595px;
+  margin-left: -798px;
   top: 39px;
 }
 
 #author {
-  padding-left: 119px;
+  padding-left: 185px;
 }
 
 .social {
   position: relative;
-  left: -251px;
+  left: -385px;
 }
 
 .sociall {
   top: 26px;
   position: relative;
-  left: -219px;
+  left: -341px;
 }
 
 .sociall :hover {
@@ -150,9 +156,14 @@ header {
 
 .article {
   padding: 45px 0 0 0;
-  margin-left: 470px;
+  margin-left: 574px;
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+.article-text{
+  padding-left: 716px;
+  margin-top: 24px;
 }
 
 .subscription {
@@ -179,7 +190,7 @@ header {
 .inflation > span {
   display: block;
   margin-top: 25px;
-  margin-left: 227px;
+  margin-left: 408px;
 }
 
 .sub-text {
@@ -227,8 +238,8 @@ h1 {
 .inflation-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 25%;
+  padding-right: 22%;
 }
 
 .read-comments-button {
@@ -240,11 +251,10 @@ h1 {
   border-radius: 3px;
   cursor: pointer;
   margin-top: 29px;
-  margin-left: 73px;
 }
 
 #vedio {
-  margin: 27px 0 0 441px;
+  margin: 27px 0 0 574px;
 }
 
 #comment {
@@ -253,12 +263,12 @@ h1 {
 
 .comment {
   color: #666;
-  margin: 27px 0 0 441px;
+  margin: 27px 0 0 552px;
 }
 
 .img-sky {
   height: 376px;
-  margin: 36px 0 0 441px;
+  margin: 36px 0 0 562px;
 }
 
 .article-one {
@@ -285,26 +295,32 @@ i.fa {
 
 .one {
   color: black;
-  margin: 35px 395px 3px 35px;
   font-weight: bold;
+  position: relative;
+  left: 1098px;
+  margin-right: 1283px;
 }
 
 #two {
   color: black;
-  margin: -5px 39px 7px 1007px;
   font-weight: bold;
+  left: 133px;
+  margin-right: 774px;
   position: relative;
 }
 
 .margin-txt {
-  margin-left: 75px;
+  margin-left: 134px;
   font-size: medium;
   color: #000;
 }
 
-.article-text {
-  padding-left: 600px;
-  padding-top: 37px;
+.margin {
+  margin-left: 63px;
+  font-size: medium;
+  color: #000;
+  position: relative;
+  top: 24px;
 }
 
 a:link,
@@ -331,7 +347,7 @@ a:visited {
 }
 
 .grid li {
-  padding-left: 25px;
+  padding-left: 83px;
 }
 
 .img-grid {
@@ -342,7 +358,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 50px 0 0 72px;
+  margin: 50px 0 0 111px;
 }
 
 .left-content {
@@ -350,17 +366,12 @@ a:visited {
   padding-left: 0.5rem;
   position: relative;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 24px;
   word-wrap: break-word;
-  top: -866px;
+  top: -868px;
   font-size: large;
   float: right;
-}
-
-.margin {
-  padding-left: 69px;
-  position: relative;
-  top: 24px;
+  left: -157px;
 }
 
 .left-txt {
@@ -368,10 +379,10 @@ a:visited {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -902px;
+  top: -892px;
   font-size: larger;
   float: right;
-  left: -242px;
+  left: -476px;
 }
 
 .footer-grid-item {
@@ -423,7 +434,6 @@ a:visited {
   top: 25px;
   left: 170px;
   color: silver;
-  padding-bottom: 50px;
 }
 
 .second-footer a {
@@ -462,19 +472,19 @@ a:visited {
 }
 
 .text2 {
-  font-size: 16px;
+  margin-left: 48px;
 }
 
 .picks {
   position: relative;
   float: right;
   top: -153px;
-  left: -36px;
+  left: -216px;
   display: grid;
 }
 
 .picks p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-align: center;
   font-weight: 700;
   color: rgb(0, 0, 0);
   margin-top: 0;
@@ -498,26 +508,20 @@ a:visited {
   text-decoration: none;
 }
 
-.sticky {
-  padding: 5x 5px 0px 5px;
+.sticky{
   background-color: white;
-  cursor: pointer;
+  padding: 20px 20px;
   border: 1px solid black;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   text-align: center;
+  top: 0;
 }
 
-.sticky p {
-  text-align: center;
-  padding-top: 9px;
-}
-
-.sticky span {
-  position: relative;
-  left: 390px;
-  top: -17px;
+#expand{
   font-weight: bold;
+  padding-right: -59px;
+  top: -21px;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  left: 57px;
 }
