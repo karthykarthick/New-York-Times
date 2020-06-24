@@ -9,6 +9,7 @@ html {
 
 header {
   z-index: 1;
+  width: 100%;
 }
 
 .nav-container {
@@ -422,6 +423,7 @@ a:visited {
   top: 25px;
   left: 170px;
   color: silver;
+  padding-bottom: 50px;
 }
 
 .second-footer a {
