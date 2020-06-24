@@ -130,7 +130,7 @@ header {
 }
 
 #author {
-  padding-left: 185px;
+  padding-left: 61px;
 }
 
 .social {
@@ -425,6 +425,7 @@ a:visited {
   width: 100%;
   margin-bottom: 50px;
   border-top: 1px solid #ebebeb;
+  padding-bottom: 100px;
 }
 
 .link {
@@ -515,11 +516,19 @@ a:visited {
 }
 
 .sticky{
+  position: fixed;
+  height: 50px;
   background-color: white;
-  padding: 20px 20px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px 10px;
+  margin-bottom: 0px;
   border: 1px solid black;
-  text-align: center;
-  top: 0;
+}
+
+.sticky p{
+  margin-left: 650px;
 }
 
 #expand{
@@ -529,7 +538,7 @@ a:visited {
   float: right;
   position: relative;
   cursor: pointer;
-  left: 57px;
+  left: -256px;
 }
 
 .subscribe-cls-border{
