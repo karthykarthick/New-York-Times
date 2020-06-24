@@ -9,11 +9,16 @@ html {
 
 header {
   z-index: 1;
+  width:100vw;
 }
 
 .nav-container {
   position: fixed;
+  display: flex;
+  justify-content: space-evenly;
   top: 0;
+  width: 100;
+  width: 100%;
   background: white;
   overflow: hidden;
 }
@@ -297,8 +302,8 @@ i.fa {
   color: black;
   font-weight: bold;
   position: relative;
-  left: 1098px;
-  margin-right: 1283px;
+  left: 1073px;
+  margin-right: 1305px;
 }
 
 #two {
@@ -316,7 +321,7 @@ i.fa {
 }
 
 .margin {
-  margin-left: 63px;
+  margin-left: 138px;
   font-size: medium;
   color: #000;
   position: relative;
@@ -358,7 +363,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 50px 0 0 111px;
+  margin: 50px 0 0 138px;
 }
 
 .left-content {
@@ -371,7 +376,7 @@ a:visited {
   top: -868px;
   font-size: large;
   float: right;
-  left: -157px;
+  left: -177px;
 }
 
 .left-txt {
@@ -380,9 +385,9 @@ a:visited {
   line-height: 0;
   word-wrap: break-word;
   top: -892px;
-  font-size: larger;
+  font-size: medium;
   float: right;
-  left: -476px;
+  left: -518px;
 }
 
 .footer {
@@ -476,10 +481,6 @@ a:visited {
   border-color: #333;
   font-stretch: 100%;
   line-height: 30px;
-}
-
-.text2 {
-  margin-left: 48px;
 }
 
 .picks {
