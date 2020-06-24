@@ -385,7 +385,7 @@ a:visited {
   left: -476px;
 }
 
-.footer{
+.footer {
   border-top: 2px solid #e2e2e2;
   margin-top: 50px;
 }
@@ -515,9 +515,9 @@ a:visited {
   text-decoration: none;
 }
 
-.sticky{
+.sticky {
   position: fixed;
-  height: 25px;
+  height: 24px;
   background-color: white;
   bottom: 0px;
   left: 0px;
@@ -527,7 +527,7 @@ a:visited {
   border: 1px solid black;
 }
 
-.sticky p{
+.sticky p {
   margin-left: 650px;
 }
 
@@ -541,6 +541,6 @@ a:visited {
   left: -256px;
 }
 
-.subscribe-cls-border{
+.subscribe-cls-border {
   border-left: 1px solid rgb(226, 226, 226);
 }
