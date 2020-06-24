@@ -500,10 +500,6 @@ a:visited {
   top: 0;
 }
 
-.sticky p{
-  padding-left: 321px;
-}
-
 #expand{
   font-weight: bold;
   padding-right: -59px;
@@ -511,9 +507,10 @@ a:visited {
   float: right;
   position: relative;
   cursor: pointer;
+  left: -155px;
 }
-
-@media screen and (min-width: 1080px) and (max-width: 1920px) {
+ 
+@media only screen and (max-width: 1380px) and (max-width: 1080px){
 
   .navbar {
     display: flex;
@@ -528,9 +525,7 @@ a:visited {
  }
 
  .left-nav {
- 
   padding-right: 379px;
-
  }
 
 .left-nav img{
@@ -580,10 +575,8 @@ a:visited {
 }
 
 .article-text{
-  padding-left: 850px;
-    position: relative;
-    top: 20px;
-    font-weight: bold;
+  padding-left: 590px;
+  margin-top: 36px;
 }
 
 .inflation > span {
@@ -615,7 +608,6 @@ a:visited {
 
 .article-one {
     color: #666;
-    /* font-size: 0.9rem; */
     font-size: 15px;
     line-height: 1rem;
 }
@@ -702,19 +694,12 @@ a:visited {
   width: 71%;
 }
 
-
-.sticky{
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 .sticky p{
   padding-left: 321px;
   flex-shrink: 0;
 }
 
-#expand{
+#expand {
   font-weight: bold;
   padding-right: -59px;
   top: -21px;
@@ -722,5 +707,7 @@ a:visited {
   flex-shrink: 0;
   position: relative;
   cursor: pointer;
+  left: -450px;
 }
-}
+
+} 
