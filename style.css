@@ -105,7 +105,7 @@ header {
   margin: 0 140px 0 231px;
 }
 
-.author-text{
+.author-text {
   padding-left: 600px;
   margin-top: 24px;
 }
@@ -161,7 +161,7 @@ header {
   line-height: 1.875rem;
 }
 
-.article-text{
+.article-text {
   padding-left: 716px;
   margin-top: 24px;
 }
@@ -508,7 +508,7 @@ a:visited {
   text-decoration: none;
 }
 
-.sticky{
+.sticky {
   background-color: white;
   padding: 20px 20px;
   border: 1px solid black;
@@ -516,7 +516,7 @@ a:visited {
   top: 0;
 }
 
-#expand{
+#expand {
   font-weight: bold;
   padding-right: -59px;
   top: -21px;
