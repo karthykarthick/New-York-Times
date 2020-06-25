@@ -11,6 +11,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 
 .navbar {
@@ -314,13 +315,13 @@ i.fa {
 }
 
 .margin-txt {
-  margin-left: 196px;
+  margin-left: 104px;
   font-size: medium;
   color: #000;
 }
 
 .margin {
-  margin-left: 192px;
+  margin-left: 100px;
   font-size: medium;
   color: #000;
   position: relative;
@@ -338,7 +339,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   list-style: none;
   grid-gap: 5px;
-  margin-left: 194px;
+  margin-left: 100px;
   grid-template-areas: "box content";
 }
 
@@ -358,19 +359,19 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 51px 0 0 190px;
+  margin-left: 100px;
+  margin: 51px 0 0 100px;
 }
 
-.left-content {
-  width: 26%;
-  padding-left: 0.5rem;
-  position: relative;
-  font-weight: normal;
-  line-height: 24px;
-  word-wrap: break-word;
-  top: -803px;
-  font-size: large;
-  float: right;
+  .left-content {
+      padding-left: 0.5rem;
+      font-weight: normal;
+      line-height: 24px;
+      word-wrap: break-word;
+      font-size: large;
+      position: absolute;
+      top: 3106%;
+      left: 76%;
 }
 
 .left-txt {
@@ -381,52 +382,36 @@ a:visited {
   top: -854px;
   font-size: medium;
   float: right;
-  left: -344px;
+  left: -219px;
 }
 
 .footer {
-  border-top: 2px solid #e2e2e2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .footer-grid-item {
-  position: relative;
-  text-align: left;
-}fixed footer
+
+}
 
 .footer-ul a {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+ 
 }
 
 .footer-ul {
-  list-style: none;
-  align-items: center;
-  padding: 10px 20px 0 20px;
+
 }
 
 .footer-ul span {
-  display: block;
-  font-size: 0.83em;
-  margin-bottom: 0.67em;
-  font-weight: bold;
+
 }
 
 .first-footer {
-  display: flex;
-  margin: 98px 0 0 0;
-  line-height: 2;
-  align-items: baseline;
+
 }
 
 .second-footer {
-  width: 100%;
-  margin-bottom: 50px;
-  border-top: 1px solid #ebebeb;
-  padding-bottom: 52px;
+
 }
 
 .link {
@@ -434,14 +419,7 @@ a:visited {
 }
 
 .second-footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: smaller;
-  position: relative;
-  top: 25px;
-  left: 170px;
-  color: silver;
+
 }
 
 .second-footer a {
