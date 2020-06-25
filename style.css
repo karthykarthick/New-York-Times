@@ -5,14 +5,11 @@
 
 header {
   z-index: 1;
-  width: 100vw;
 }
 
 .nav-container {
-  position: fixed;
-  top: 0;
-  background: white;
-  width: 100vw;
+  padding-right: 6px;
+  width: 99%;
 }
 
 .navbar {
