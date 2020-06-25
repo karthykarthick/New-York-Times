@@ -8,14 +8,15 @@ header {
 }
 
 .nav-container {
-  padding-right: 6px;
-  width: 99%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 0px 10px;
 }
 
 #logo {
@@ -385,13 +386,15 @@ a:visited {
 
 .footer {
   border-top: 2px solid #e2e2e2;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-grid-item {
   position: relative;
   text-align: left;
-}
+}fixed footer
 
 .footer-ul a {
   color: black;
@@ -417,8 +420,6 @@ a:visited {
   margin: 98px 0 0 0;
   line-height: 2;
   align-items: baseline;
-  position: relative;
-  left: 123px;
 }
 
 .second-footer {
