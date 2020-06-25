@@ -24,11 +24,11 @@ header {
 }
 
 .left-nav {
-  padding-right: 300px;
+  padding-right: 129px;
 }
 
 .right-nav {
-  padding-left: 512px;
+  padding-left: 345px;
 }
 
 .navbar {
@@ -118,7 +118,7 @@ header {
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 356px;
+  margin-left: 289px;
   padding-bottom: 23px;
 }
 
@@ -130,23 +130,23 @@ header {
 
 #dates {
   position: relative;
-  margin-left: -798px;
+  margin-left: -626px;
   top: 39px;
 }
 
 #author {
-  padding-left: 61px;
+  padding-left: 24px;
 }
 
 .social {
   position: relative;
-  left: -385px;
+  left: -240px;
 }
 
 .sociall {
   top: 26px;
   position: relative;
-  left: -341px;
+  left: -215px;
 }
 
 .sociall :hover {
@@ -160,7 +160,7 @@ header {
 }
 
 .article {
-  padding: 44px 562px 0 582px;
+  padding: 44px 346px 0 441px;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -194,7 +194,7 @@ header {
 .inflation > span {
   display: block;
   margin-top: 25px;
-  margin-left: 408px;
+  margin-left: 338px;
 }
 
 .sub-text {
@@ -258,7 +258,7 @@ h1 {
 }
 
 #vedio {
-  margin: 27px 0 0 574px;
+  margin: 27px 0 0 446px;
 }
 
 #comment {
@@ -267,12 +267,12 @@ h1 {
 
 .comment {
   color: #666;
-  margin: 27px 0 0 552px;
+  margin: 27px 0 0 429px;
 }
 
 .img-sky {
   height: 376px;
-  margin: 35px 0 0 562px;
+  margin: 35px 0 0 431px;
 }
 
 .article-one {
@@ -298,23 +298,23 @@ i.fa {
 }
 
 .one {
-  color: black;
-  font-weight: bold;
-  position: relative;
-  left: 1073px;
-  margin-right: 1305px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 973px;
+    margin-right: 1016px;
 }
 
 #two {
   color: black;
   font-weight: bold;
-  left: 133px;
-  margin-right: 774px;
+  left: 44px;
+  margin-right: 468px;
   position: relative;
 }
 
 .margin-txt {
-  margin-left: 134px;
+  margin-left: 53px;
   font-size: medium;
   color: #000;
 }
@@ -343,15 +343,10 @@ a:visited {
 
 .rec {
   grid-area: box;
-  grid-gap: 11px;
 }
 
 .text-rec {
   grid-area: content;
-}
-
-.grid li {
-  padding-left: 83px;
 }
 
 .img-grid {
@@ -362,7 +357,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 50px 0 0 138px;
+  margin: 51px 0 0 45px;
 }
 
 .left-content {
@@ -372,10 +367,10 @@ a:visited {
   font-weight: normal;
   line-height: 24px;
   word-wrap: break-word;
-  top: -868px;
+  top: -803px;
   font-size: large;
   float: right;
-  left: -177px;
+  left: -26px;
 }
 
 .left-txt {
@@ -383,10 +378,10 @@ a:visited {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -892px;
+  top: -843px;
   font-size: medium;
   float: right;
-  left: -518px;
+  left: -278px;
 }
 
 .footer {
@@ -429,7 +424,7 @@ a:visited {
   width: 100%;
   margin-bottom: 50px;
   border-top: 1px solid #ebebeb;
-  padding-bottom: 100px;
+  padding-bottom: 52px;
 }
 
 .link {
@@ -486,7 +481,7 @@ a:visited {
   position: relative;
   float: right;
   top: -153px;
-  left: -201px;
+  left: -44px;
   display: grid;
 }
 
@@ -529,17 +524,17 @@ a:visited {
 }
 
 .sticky p {
-  margin-left: 650px;
+  margin-left: 450px;
 }
 
 #expand {
   font-weight: bold;
   padding-right: -59px;
-  top: -21px;
+  top: -18px;
   float: right;
   position: relative;
   cursor: pointer;
-  left: -255px;
+  left: -179px;
 }
 
 .subscribe-cls-border {
