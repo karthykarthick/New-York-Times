@@ -252,21 +252,30 @@ h1 {
 }
 
 #vedio {
-  margin: 27px 0 0 446px;
+  display: flex;
+  justify-content: center;
 }
 
 #comment {
   color: #666;
+  display: flex;
+  margin-top: 13px;
+  justify-content: center;
 }
 
 .comment {
   color: #666;
-  margin: 27px 0 0 429px;
+  display: flex;
+  justify-content: center;
 }
 
 .img-sky {
   height: 376px;
-  margin: 35px 0 0 431px;
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
 }
 
 .article-one {
@@ -327,10 +336,6 @@ a:visited {
   display: inline-block;
 }
 
-.figure {
-  margin-left: 150px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -369,7 +374,6 @@ a:visited {
   top: -803px;
   font-size: large;
   float: right;
-  left: -126px;
 }
 
 .left-txt {
@@ -377,10 +381,10 @@ a:visited {
   font-weight: bold;
   line-height: 0;
   word-wrap: break-word;
-  top: -843px;
+  top: -854px;
   font-size: medium;
   float: right;
-  left: -467px;
+  left: -344px;
 }
 
 .footer {
