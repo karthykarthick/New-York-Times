@@ -7,12 +7,14 @@ header {
   z-index: 1;
 }
 
-.nav-container {
-  padding-right: 6px;
-  width: 99%;
-}
-
 .navbar {
+  position: fixed;
+  background-color: white;
+  height: 43px;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
