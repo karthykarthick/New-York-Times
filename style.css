@@ -3,22 +3,25 @@
   margin: 0;
 }
 
-header {
-  z-index: 1;
-}
-
-.nav-container {
+.navbar {
   position: fixed;
-  top: 0;
+  background-color: white;
+  height: 43px;
   width: 100%;
   background-color: white;
 }
 
 .navbar {
+  top: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  z-index: 1;
   display: flex;
   justify-content: space-between;
-  padding: 0px 10px;
+  padding-top: 15px;
 }
+
+.right-nav{padding-right: 33px;}
+.left-nav{padding-left: 15px;}
 
 #logo {
   height: 24px;
