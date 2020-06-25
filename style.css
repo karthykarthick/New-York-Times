@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-header {
-  z-index: 1;
-}
-
 .navbar {
   position: fixed;
   background-color: white;
@@ -16,9 +12,12 @@ header {
   border-bottom: 1px solid rgb(226, 226, 226);
   z-index: 1;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding-top: 15px;
 }
+
+.right-nav{padding-right: 33px;}
+.left-nav{padding-left: 15px;}
 
 #logo {
   height: 24px;
@@ -387,13 +386,15 @@ a:visited {
 
 .footer {
   border-top: 2px solid #e2e2e2;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-grid-item {
   position: relative;
   text-align: left;
-}
+}fixed footer
 
 .footer-ul a {
   color: black;
@@ -419,8 +420,6 @@ a:visited {
   margin: 98px 0 0 0;
   line-height: 2;
   align-items: baseline;
-  position: relative;
-  left: 123px;
 }
 
 .second-footer {
