@@ -10,31 +10,19 @@ header {
 
 .nav-container {
   position: fixed;
-  display: flex;
-  justify-content: space-evenly;
   top: 0;
-  width: 100;
-  width: 100%;
   background: white;
-  overflow: hidden;
-}
-
-.left-nav {
-  padding-right: 129px;
-}
-
-.right-nav {
-  padding-left: 345px;
+  width: 100vw;
 }
 
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 #logo {
   height: 24px;
-  padding-left: 224px;
 }
 
 #now {
