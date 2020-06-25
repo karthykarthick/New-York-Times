@@ -323,13 +323,13 @@ i.fa {
   color: #000;
 }
 
-.margin {
+/* .margin {
   margin-left: 100px;
   font-size: medium;
   color: #000;
   position: relative;
   top: 24px;
-}
+} */
 
 a:link,
 a:visited {
@@ -342,7 +342,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   list-style: none;
   grid-gap: 5px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   grid-template-areas: "box content";
   grid-area: one;
 }
@@ -359,23 +359,19 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin-left: 100px;
-  margin: 51px 0 0 100px;
-  grid-area: two;
+  /* margin-left: 100px;
+  margin: 51px 0 0 100px; */
 }
 
-.left-content {
-  padding-left: 1.5rem;
+.propositions-section3-container {
+  /* padding-left: 0.5rem; */
   font-weight: normal;
   line-height: 25px;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   font-size: large;
-  position: absolute;
-  top: 0%;
-  width: 315px;
-  /* left: 76%; */
-  grid-area: three;
-  align-self: flex-end;
+  /* position: absolute;
+  top: 3111%;
+  left: 76%; */
 }
 
 .left-txt {
@@ -390,11 +386,17 @@ a:visited {
   width: 174px;
 }
 
-.lines a {
+.propositions-section{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+}
+/* .propositions-section a {
   color: black;
   text-decoration: none;  margin: 3px 0 0 0;
   cursor: pointer;
-}
+} */
 
 .lines{
   position: relative;
@@ -571,4 +573,12 @@ a:visited {
 
 .subscribe-cls-border {
   border-left: 1px solid rgb(226, 226, 226);
+}
+
+
+.propositions-section-header{
+  font-size: 16px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-stretch: 72%;
 }
