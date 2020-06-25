@@ -557,10 +557,46 @@ a:visited {
   border-left: 1px solid rgb(226, 226, 226);
 }
 
+.propositions-section{
+  margin: 2% 0 0 3%;
+}
 
 .propositions-section-header{
   font-size: 16px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   font-stretch: 72%;
+  margin: 20px 0 20px 0;
+}
+
+.propositions-section11-container{
+  border-top: 1px solid black;
+  margin: 2% 0 4% 0;
+}
+
+.propositions-section12-container{
+  border-top: 1px solid black;
+  margin: 2% 0 4% 0;
+}
+
+.propositions-section1{
+  margin-right: 2%;
+}
+
+.propositions-section2-container{
+  display: flex;
+}
+
+.propositions-section2{
+  border-top: 1px solid black;
+  margin: 1.15% 0 4% 0;
+}
+
+aside p{
+  width: 311px;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
 }
