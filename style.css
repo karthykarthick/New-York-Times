@@ -363,15 +363,15 @@ a:visited {
   margin: 51px 0 0 100px;
 }
 
-  .left-content {
-      padding-left: 0.5rem;
-      font-weight: normal;
-      line-height: 24px;
-      word-wrap: break-word;
-      font-size: large;
-      position: absolute;
-      top: 3106%;
-      left: 76%;
+.left-content {
+  padding-left: 0.5rem;
+  font-weight: normal;
+  line-height: 24px;
+  word-wrap: break-word;
+  font-size: large;
+  position: absolute;
+  top: 3111%;
+  left: 76%;
 }
 
 .left-txt {
@@ -385,48 +385,6 @@ a:visited {
   left: -219px;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-grid-item {
-
-}
-
-.footer-ul a {
- 
-}
-
-.footer-ul {
-
-}
-
-.footer-ul span {
-
-}
-
-.first-footer {
-
-}
-
-.second-footer {
-
-}
-
-.link {
-  color: black;
-}
-
-.second-footer ul {
-
-}
-
-.second-footer a {
-  color: black;
-  text-decoration: none;
-}
-
 .lines a {
   color: black;
   text-decoration: none;
@@ -437,8 +395,69 @@ a:visited {
   padding-left: 20px;
 }
 
-.space {
-  padding-left: 40px;
+
+
+.footer {
+  border-top: 2px solid #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.footer-ul a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-ul {
+  list-style: none;
+  align-items: center;
+  padding: 1px 20px 0 20px;
+}
+
+.footer-ul span {
+  display: block;
+  font-size: 0.83em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+}
+
+.first-footer {
+  display: flex;
+  justify-content: center;
+  margin: 98px 0 0 -132px;
+  line-height: 2;
+  align-items: baseline;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+  border-top: 1px solid #ebebeb;
+  padding-bottom: 52px;
+}
+
+.link {
+  color: black;
+}
+
+.second-footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  position: relative;
+  top: 25px;
+  color: silver;
+}
+
+.second-footer a {
+  color: black;
+  text-decoration: none;
 }
 
 #footer-logo {
@@ -528,4 +547,3 @@ a:visited {
 .subscribe-cls-border {
   border-left: 1px solid rgb(226, 226, 226);
 }
-
