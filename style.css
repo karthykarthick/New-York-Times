@@ -20,8 +20,12 @@
   padding-top: 15px;
 }
 
-.right-nav{padding-right: 33px;}
-.left-nav{padding-left: 15px;}
+.right-nav {
+  padding-right: 33px;
+}
+.left-nav {
+  padding-left: 15px;
+}
 
 #logo {
   height: 24px;
@@ -380,7 +384,7 @@ a:visited {
   width: 174px;
 }
 
-.propositions-section{
+.propositions-section {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
@@ -392,13 +396,14 @@ a:visited {
   cursor: pointer;
 } */
 
-.lines{
+.lines {
   position: relative;
   display: grid;
-  grid-template-rows: 1fr ;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "one three"
-  "two three";
+  grid-template-areas:
+    "one three"
+    "two three";
 }
 
 .footer-text {
@@ -485,17 +490,17 @@ a:visited {
   justify-content: center;
 }
 
-.text2{
+.text2 {
   position: absolute;
   top: 543px;
   right: 0;
   left: 95px;
 }
 
-.text3{
-    position: absolute;
-    right: 0;
-    left: 101px;
+.text3 {
+  position: absolute;
+  right: 0;
+  left: 101px;
 }
 
 .picks {
@@ -567,11 +572,11 @@ a:visited {
   border-left: 1px solid rgb(226, 226, 226);
 }
 
-.propositions-section{
+.propositions-section {
   margin: 2% 0 0 3%;
 }
 
-.propositions-section-header{
+.propositions-section-header {
   font-size: 16px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -579,30 +584,30 @@ a:visited {
   margin: 20px 0 20px 0;
 }
 
-.propositions-section11-container{
+.propositions-section11-container {
   border-top: 1px solid black;
   margin: 2% 0 4% 0;
 }
 
-.propositions-section12-container{
+.propositions-section12-container {
   border-top: 1px solid black;
   margin: 2% 0 4% 0;
 }
 
-.propositions-section1{
+.propositions-section1 {
   margin-right: 2%;
 }
 
-.propositions-section2-container{
+.propositions-section2-container {
   display: flex;
 }
 
-.propositions-section2{
+.propositions-section2 {
   border-top: 1px solid black;
   margin: 1.15% 0 4% 0;
 }
 
-aside p{
+aside p {
   width: 311px;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
