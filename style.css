@@ -1,4 +1,3 @@
-
 html {
   height: -webkit-fill-available;
 }
@@ -299,11 +298,11 @@ i.fa {
 }
 
 .one {
-    color: black;
-    font-weight: bold;
-    position: relative;
-    left: 973px;
-    margin-right: 1016px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  left: 973px;
+  margin-right: 1016px;
 }
 
 #two {
