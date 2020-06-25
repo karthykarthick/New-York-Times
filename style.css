@@ -80,6 +80,7 @@ header {
 }
 
 .main-image-container {
+  display: flex;
   justify-content: center;
 }
 
@@ -102,8 +103,13 @@ header {
 .about-main-author {
   display: flex;
   justify-content: space-around;
-  margin-left: 289px;
-  padding-bottom: 23px;
+  margin-left: 287px;
+  padding-bottom: 0;
+}
+
+.about-main-author i {
+  display: flex;
+  justify-content: left;
 }
 
 .about-main-author ul {
@@ -124,7 +130,7 @@ header {
 
 .social {
   position: relative;
-  left: -240px;
+  left: -286px;
 }
 
 .sociall {
@@ -144,14 +150,18 @@ header {
 }
 
 .article {
-  padding: 44px 346px 0 441px;
+  padding: 44px 0 0 0;
   font-size: 1.25rem;
+  display: flex;
+  padding-top: 56px;
+  justify-content: space-evenly;
+  justify-content: center;
   line-height: 1.875rem;
 }
 
 .article-text {
-  padding-left: 580px;
   margin-top: 24px;
+  text-align: center;
 }
 
 .subscription {
@@ -285,26 +295,26 @@ i.fa {
   color: black;
   font-weight: bold;
   position: relative;
-  left: 973px;
-  margin-right: 1016px;
+  left: 1122px;
+  margin-right: 1264px;
 }
 
 #two {
   color: black;
   font-weight: bold;
-  left: 44px;
-  margin-right: 468px;
+  left: 200px;
+  margin-right: 801px;
   position: relative;
 }
 
 .margin-txt {
-  margin-left: 53px;
+  margin-left: 196px;
   font-size: medium;
   color: #000;
 }
 
 .margin {
-  margin-left: 138px;
+  margin-left: 192px;
   font-size: medium;
   color: #000;
   position: relative;
@@ -317,11 +327,16 @@ a:visited {
   display: inline-block;
 }
 
+.figure {
+  margin-left: 150px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   list-style: none;
-  margin-left: 50px;
+  grid-gap: 5px;
+  margin-left: 194px;
   grid-template-areas: "box content";
 }
 
@@ -341,7 +356,7 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  margin: 51px 0 0 45px;
+  margin: 51px 0 0 190px;
 }
 
 .left-content {
@@ -354,7 +369,7 @@ a:visited {
   top: -803px;
   font-size: large;
   float: right;
-  left: -26px;
+  left: -126px;
 }
 
 .left-txt {
@@ -365,7 +380,7 @@ a:visited {
   top: -843px;
   font-size: medium;
   float: right;
-  left: -278px;
+  left: -467px;
 }
 
 .footer {
@@ -399,9 +414,11 @@ a:visited {
 
 .first-footer {
   display: flex;
-  margin: 98px 0 0 20px;
-  padding-right: 61px;
+  margin: 98px 0 0 0;
   line-height: 2;
+  align-items: baseline;
+  position: relative;
+  left: 123px;
 }
 
 .second-footer {
@@ -458,6 +475,10 @@ a:visited {
   color: #333;
   border-color: #333;
   font-stretch: 100%;
+  padding-top: -34px;
+  top: 25px;
+  position: relative;
+  margin-left: 575px;
   line-height: 30px;
 }
 
@@ -465,8 +486,12 @@ a:visited {
   position: relative;
   float: right;
   top: -153px;
-  left: -44px;
+  left: -212px;
   display: grid;
+}
+
+.left {
+  margin-left: 257px;
 }
 
 .picks p {
