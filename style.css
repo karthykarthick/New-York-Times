@@ -259,7 +259,6 @@ h1 {
 
 #comment {
   color: #666;
-  display: flex;
   margin-top: 13px;
   justify-content: center;
 }
@@ -364,14 +363,9 @@ a:visited {
 }
 
 .propositions-section3-container {
-  /* padding-left: 0.5rem; */
   font-weight: normal;
   line-height: 25px;
-  /* word-wrap: break-word; */
   font-size: large;
-  /* position: absolute;
-  top: 3111%;
-  left: 76%; */
 }
 
 .left-txt {
@@ -417,7 +411,6 @@ a:visited {
   flex-direction: column;
   justify-content: center;
 }
-
 
 .footer-ul a {
   color: black;
@@ -483,15 +476,13 @@ a:visited {
 
 .text1 {
   font-size: 20px;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: #333;
-  border-color: #333;
-  font-stretch: 100%;
   padding-top: -34px;
   top: 25px;
   position: relative;
-  margin-left: 575px;
-  line-height: 30px;
+  display: flex;
+  float: none;
+  justify-content: center;
 }
 
 .text2{
@@ -508,11 +499,12 @@ a:visited {
 }
 
 .picks {
-  position: relative;
-  float: right;
-  top: -153px;
-  left: -212px;
-  display: grid;
+  position: absolute;
+  top: 161rem;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
 }
 
 .left {
