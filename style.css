@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.navbar {
+.navbarr {
   position: fixed;
   background-color: white;
   height: 43px;
@@ -22,6 +22,7 @@
 .right-nav {
   padding-right: 33px;
 }
+
 .left-nav {
   padding-left: 15px;
 }
@@ -123,19 +124,7 @@
 
 .about-main-author ul {
   display: flex;
-  /* justify-content: space-evenly; */
   list-style: none;
-}
-
-.sociall {
-  /* top: 26px; */
-  position: relative;
-  /* left: -215px; */
-}
-
-.sociall :hover {
-  background-color: silver;
-  cursor: pointer;
 }
 
 .social :hover {
@@ -235,8 +224,6 @@ h1 {
 .inflation-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* padding-left: 15%;
-  padding-right: 15%; */
   align-items: baseline;
 }
 
@@ -321,14 +308,6 @@ i.fa {
   color: #000;
 }
 
-/* .margin {
-  margin-left: 100px;
-  font-size: medium;
-  color: #000;
-  position: relative;
-  top: 24px;
-} */
-
 .text-articles {
   display: flex;
   flex-direction: column;
@@ -362,8 +341,6 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   display: grid;
   list-style: none;
-  /* margin-left: 100px;
-  margin: 51px 0 0 100px; */
 }
 
 .left-txt {
@@ -519,7 +496,7 @@ a:visited {
   letter-spacing: 0.02em;
   position: relative;
   cursor: pointer;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: georgia, "times new roman";
   margin-left: 15px;
 }
 
@@ -531,7 +508,6 @@ a:visited {
   height: 100px;
   float: left;
   position: relative;
-  /* left: -20px; */
 }
 
 .picks a {
