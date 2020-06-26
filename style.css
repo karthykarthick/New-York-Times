@@ -163,8 +163,13 @@
   width: 1100px;
 }
 
+.univ-text {
+  position: relative;
+  font-size: smaller;
+  font-size: 14px;
+}
+
 .inflation .univ-text {
-  /* width: 222px; */
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
@@ -172,7 +177,6 @@
 
 #clr {
   color: black;
-  /* margin-left: 13%; */
 }
 
 .inflation > span {
@@ -208,12 +212,6 @@ h1 {
   font-style: normal;
   font-size: 1.25rem;
   color: black;
-}
-
-.univ-text {
-  position: relative;
-  font-size: smaller;
-  font-size: 14px;
 }
 
 .title {
@@ -324,7 +322,6 @@ a:visited {
   grid-template-columns: 300px 300px 300px;
   list-style: none;
   grid-gap: 5px;
-  /* margin-left: 100px; */
   grid-template-areas: "box content";
   grid-area: one;
 }
@@ -496,7 +493,6 @@ a:visited {
   letter-spacing: 0.02em;
   position: relative;
   cursor: pointer;
-  font-family: georgia, "times new roman";
   margin-left: 15px;
 }
 
