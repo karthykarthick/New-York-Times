@@ -254,6 +254,7 @@ h1 {
 #vedio {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 #comment {
@@ -396,6 +397,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 996px;
+  margin: 0 auto;
 }
 
 .footer-ul a {
@@ -420,9 +423,9 @@ a:visited {
 .first-footer {
   display: flex;
   justify-content: center;
-  margin: 98px 0 0 -132px;
   line-height: 2;
   align-items: baseline;
+  padding-top: 25px;
 }
 
 .second-footer {
@@ -455,9 +458,8 @@ a:visited {
 
 #footer-logo {
   height: 24px;
-  position: relative;
-  top: -43px;
-  left: 216px;
+  width: 164px;
+  margin-top: 25px;
 }
 
 .text1 {
