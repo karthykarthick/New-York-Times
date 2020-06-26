@@ -3,6 +3,28 @@
   margin: 0;
 }
 
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
 .navbar {
   position: fixed;
   background-color: white;
@@ -100,16 +122,26 @@
   margin: 0 140px 0 231px;
 }
 
+.main-article-container{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0 auto;
+}
+
 .author-text {
-  padding-left: 600px;
-  margin-top: 24px;
+  /* padding-left: 600px;
+  margin-top: 24px; */
 }
 
 .about-main-author {
+  width: 600px;
   display: flex;
-  justify-content: space-around;
-  margin-left: 287px;
-  padding-bottom: 0;
+  justify-content: flex-start;
+  /* margin-left: 287px;
+  padding-bottom: 0; */
 }
 
 .about-main-author i {
@@ -119,29 +151,30 @@
 
 .about-main-author ul {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   list-style: none;
+  margin-left: 44%;
 }
 
 #dates {
-  position: relative;
+  /* position: relative;
   margin-left: -626px;
-  top: 39px;
+  top: 39px; */
 }
 
 #author {
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .social {
-  position: relative;
-  left: -286px;
+  /* position: relative; */
+  /* left: -286px; */
 }
 
 .sociall {
-  top: 26px;
+  /* top: 26px; */
   position: relative;
-  left: -215px;
+  /* left: -215px; */
 }
 
 .sociall :hover {
@@ -487,41 +520,61 @@ a:visited {
 
 .picks {
   position: absolute;
-  top: 161rem;
-  right: 0;
+  top: 136rem;
+  right: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: right;
+  width: 250px;
+}
+
+.picks p {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  position: relative;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.picks-container{
+  margin: 5px 0;
+}
+
+.picks-container p {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  position: relative;
+  cursor: pointer;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  margin-left: 15px;
 }
 
 .left {
   margin-left: 257px;
 }
 
-.picks p {
-  text-align: center;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  margin-top: 0;
-  margin-bottom: 15px;
-  padding-bottom: 12px;
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: 0.02em;
-  position: relative;
-  left: -103px;
-}
+
 
 .picks img {
   height: 100px;
   float: left;
   position: relative;
-  left: -20px;
+  /* left: -20px; */
 }
 
 .picks a {
   color: #666;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sticky {
