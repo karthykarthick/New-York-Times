@@ -366,12 +366,6 @@ a:visited {
   margin: 51px 0 0 100px; */
 }
 
-.propositions-section3-container {
-  font-weight: normal;
-  line-height: 25px;
-  font-size: large;
-}
-
 .left-txt {
   position: relative;
   font-weight: bold;
@@ -383,18 +377,6 @@ a:visited {
   left: 26px;
   width: 174px;
 }
-
-.propositions-section {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  /* align-items: center; */
-}
-/* .propositions-section a {
-  color: black;
-  text-decoration: none;  margin: 3px 0 0 0;
-  cursor: pointer;
-} */
 
 .lines {
   position: relative;
